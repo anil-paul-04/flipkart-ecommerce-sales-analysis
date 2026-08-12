@@ -1,6 +1,6 @@
 # Flipkart E-Commerce Sales & Operations Analysis — June 2026
 
-## 📌 Project Overview
+## Project Overview
 
 An end-to-end e-commerce analytics project focused on analyzing Flipkart sales and operational performance for June 2026.
 
@@ -10,7 +10,7 @@ The analysis focuses on sales trends, product and SKU performance, geographic pe
 
 ---
 
-## 🎯 Business Objective
+## Business Objective
 
 The objective of this project is to understand:
 
@@ -25,7 +25,7 @@ The objective of this project is to understand:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |---|---|
@@ -37,7 +37,7 @@ The objective of this project is to understand:
 
 ---
 
-## 📊 Project Workflow
+## Project Workflow
 
 Raw Flipkart Sales Report
           ↓
