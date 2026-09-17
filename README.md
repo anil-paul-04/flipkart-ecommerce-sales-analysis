@@ -1,54 +1,66 @@
-# Flipkart E-Commerce Sales & Operations Analysis — June 2026
+---
 
-## Project Overview
+## 📊 Power BI Dashboard
 
-An end-to-end e-commerce analytics project focused on analyzing Flipkart sales and operational performance for June 2026.
+An interactive Power BI dashboard was developed to provide an executive-level view of Flipkart sales and operational performance for June 2026.
 
-The project transforms raw marketplace sales data into business insights using **Python, SQL Server, and Power BI**.
+### 1. Executive Sales Overview
 
-The analysis focuses on sales trends, product and SKU performance, geographic performance, fulfilment, average order value, Pareto analysis, and discount impact.
+The Executive Overview provides a consolidated view of:
+
+- Total Orders
+- Total Quantity
+- Total Revenue
+- Total Discount
+- Average Selling Price
+- Daily Revenue & Quantity Trends
+- Weekday vs Weekend Order Performance
+- FBF vs Non-FBF Revenue
+- State-wise Returns & Return Rate
+- Revenue Contribution by SKU
+
+![Executive Sales Overview](PowerBI/Screenshots/executive_overview.png)
+
+### 2. Operational & Return Analysis
+
+This page focuses on operational performance, fulfilment and return behavior across different markets.
+
+Key analysis includes:
+
+- Weekly Revenue & Return Percentage
+- FBF Performance by Delivery State
+- Quantity Sold by Day
+- State-level Performance
+- Fulfilment Analysis
+- Executive Business Insights
+
+![Operational & Return Analysis](PowerBI/Screenshots/operational_analysis.png)
 
 ---
 
-## Business Objective
+## 💡 Key Business Insights
 
-The objective of this project is to understand:
-
-- How sales and orders performed throughout June 2026
-- Which products and SKUs contributed most to revenue
-- Which states generated the highest sales and order volumes
-- How FBF and Non-FBF fulfilment performed
-- Which markets generated higher Average Order Value
-- How concentrated revenue is across SKUs
-- Which SKUs had the highest discount exposure
-- What actions could improve sales and operational performance
+- Week 4 generated the highest weekly revenue at approximately **₹579.9K**, while recording a return percentage of approximately **9.9%**.
+- **Non-FBF contributed the larger share of revenue** compared with FBF during the analyzed period.
+- **Karnataka recorded the highest FBF quantity** among the states highlighted in the dashboard.
+- Return rates varied considerably across states, indicating differences in return behavior across geographic markets.
+- Revenue was concentrated among a small number of SKUs, highlighting the importance of monitoring high-contribution products.
+- Daily and weekly trends were analyzed to identify changes in sales performance throughout June 2026.
 
 ---
 
-## Tools & Technologies
+## 📁 Repository Structure
 
-| Tool | Purpose |
-|---|---|
-| Python | Data cleaning, analysis and exploratory analytics |
-| Pandas | Data manipulation and aggregation |
-| SQL Server | Business analysis and structured querying |
-| Power BI | Interactive dashboard and visualization |
-| Excel | Source data and marketplace reporting |
-
----
-
-## Project Workflow
-
-Raw Flipkart Sales Report
-          ↓
-Data Cleaning & Validation
-          ↓
-Python Exploratory Analysis
-          ↓
-SQL Business Analysis
-          ↓
-Power BI Data Modeling & DAX
-          ↓
-Interactive Dashboard
-          ↓
-Business Insights & Recommendations
+```text
+flipkart-ecommerce-sales-analysis/
+│
+├── FK_sales_analysis.sql
+├── flipkart_sales_analysis.ipynb
+├── README.md
+│
+└── PowerBI/
+    ├── FK_June_2026_Sales_Dashboard.pbix
+    │
+    └── Screenshots/
+        ├── executive_overview.png
+        └── operational_analysis.png
