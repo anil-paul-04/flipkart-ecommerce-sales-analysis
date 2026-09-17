@@ -19,7 +19,7 @@ The Executive Overview provides a consolidated view of:
 - State-wise Returns & Return Rate
 - Revenue Contribution by SKU
 
-![Executive Sales Overview](PowerBI/Screenshots/executive_overview.png)
+![Executive Sales Overview](PowerBI/Screenshots/Executive%20Overview.png)
 
 ### 2. Operational & Return Analysis
 
